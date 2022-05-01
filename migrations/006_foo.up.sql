@@ -1,0 +1,1 @@
+insert into test.foo (bar, baz) values (6, true);

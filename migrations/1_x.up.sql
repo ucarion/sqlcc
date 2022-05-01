@@ -1,0 +1,1 @@
+create table test.foo (bar int, baz bool);

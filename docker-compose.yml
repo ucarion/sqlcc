@@ -1,0 +1,14 @@
+version: "2"
+services:
+  mysql:
+    image: "mariadb:10.8.2"
+    environment:
+      MARIADB_ROOT_PASSWORD: "password"
+    ports:
+      - "3306:3306"
+  postgres:
+    image: "postgres:9.6.24"
+    environment:
+      POSTGRES_PASSWORD: "password"
+    ports:
+      - "9432:5432"
